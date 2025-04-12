@@ -2,11 +2,15 @@ download git
 git branch //shows branches
 git checkout //shows where the file is in the branch
 git checkout -b branch_name //creating a new branch
-git add . //adding all or file
-git commit -m "worked with async" //commit message
+
+
 git push origin branch_name //pushing to named branch
 
 
 git init //to initilize the project for github
+git add . //adding all file
+git commit -m "worked with async" //commit message
+git branch -M main
+git remote add origin https://github.com/Arnaim/git_practice_ostad.git
+git push -u origin main
 git status //what is the status of the repo
-
