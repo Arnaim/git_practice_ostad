@@ -1,5 +1,5 @@
 download git
-git branch //shows branches
+
 git checkout //shows where the file is in the branch
 git checkout -b branch_name //creating a new branch
 
@@ -14,3 +14,13 @@ git branch -M main
 git remote add origin https://github.com/Arnaim/git_practice_ostad.git
 git push -u origin main
 git status //what is the status of the repo
+git log //will show history
+git log --oneline //same as above but in one line
+git branch branch_name //creates a new branch
+git branch //shows branches
+git switch branch_name //switch to different branch
+git checkout -b test //creates new branch and then switches to it
+git push -u origin test //after creating branch have to select the branch we want to push it in
+git clone "url" //clone a repo into a folder
+git reset --soft HEAD //
+git revert abc //undo a commit to previous version
